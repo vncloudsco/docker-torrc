@@ -5,6 +5,3 @@ RUN apt update && apt -y dist-upgrade && apt install -y tor nyx && echo "" >> /e
 EXPOSE 9001 9030
 
 CMD tor
-
-
-
